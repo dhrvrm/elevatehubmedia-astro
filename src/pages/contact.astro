@@ -1,0 +1,63 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+---
+
+<Layout title="ElevateHubMedia: Animated Videos">
+	<main>
+        <section id="join-hero">
+          <div class="join-hero-text">
+              <h1>Get in Touch</h1>
+              <p>
+                  We're excited to hear from you! Whether you have <span class="text-w-color">a project in mind</span>, a question about <span class="text-w-color">our services</span>, or just want to chat about <span class="text-w-color">the possibilities of animation, we're here to help.</span> Use the form to drop us a line or reach out directly using the contact details provided. We promise to get back to you as soon as possible.
+              </p>
+              
+          </div>
+          <div class="join-form">
+              <h2>Enquiry</h2>
+              <form id="contact-form" action="https://data.endpoint.space/clubdv9b5007008l20nmvumqm" method="POST">
+                  <div class="input-group">
+                      <label for="name">Your Name *</label>
+                      <input type="text" name="name" id="name" required>
+                  </div>
+                  <div class="input-group">
+                      <label for="email">Your Email *</label>
+                      <input type="email" name="email" id="email" required>
+                  </div>
+                  <div class="input-group">
+                      <label for="name">Tell us more (Your Message) </label>
+                      <textarea rows="5" name="message" id="message"></textarea>
+                  </div>
+  
+  
+                  <!-- <a class="btn btn-primary btn-form" href="./pages/contact.html">Get in Touch</a> -->
+                  <input type="submit" class="btn btn-primary btn-form" value="Get in Touch"/>
+              </form>
+          </div>
+          </div>
+        </section>
+  
+  
+        <section id="calendly">
+          <h2>
+            Book a Warm, <br />Informal Call with Us!
+          </h2>
+          <div class="calendly-widget">
+            <!-- Calendly inline widget begin -->
+            <div
+              class="calendly-inline-widget"
+              data-url="https://calendly.com/jordan-elevatehubmedia/meet?hide_gdpr_banner=1&background_color=fcfcfc&text_color=020004&primary_color=020004"
+              style="min-width: 320px; height: 700px"
+            ></div>
+            <script
+              type="text/javascript"
+              src="https://assets.calendly.com/assets/external/widget.js"
+              async
+            ></script>
+            <!-- Calendly inline widget end -->
+          </div>
+        </section>
+  
+      </main>
+      <!-- <script src="/scripts/form.js"></script> -->
+</Layout>

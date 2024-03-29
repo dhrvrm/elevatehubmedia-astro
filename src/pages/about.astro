@@ -1,0 +1,88 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+//Assets
+import AboutHeroImage from "../assets/images/illustration-desk-behind.webp";
+import AboutInfoImage from "../assets/images/illustration-desk-top.webp";
+---
+
+<Layout title="ElevateHubMedia: Animated Videos">
+  <main>
+    <section id="about-hero">
+      <div class="about-hero-text">
+        <h1>Welcome to <span class="text-w-color">Elevate Hub Media!</span></h1>
+        <p>
+          We're all about making your marketing stand out through fun and
+          engaging animation. Our team loves to get creative, helping you share
+          your brand's story in a way that sticks with your audience.
+        </p>
+        <p>
+          We're experts in putting together animated videos that aren't just
+          cool to watch but also get your message across loud and clear. We keep
+          up with what's new and exciting in marketing so that we can help your
+          brand stand out.
+        </p>
+      </div>
+      <div class="about-hero-image">
+        <picture class="hero-display-image">
+          <img
+            loading="eager"
+            src={AboutHeroImage.src}
+            alt="Know more about our Experise in Animation Video, with great scripts, voice-overs, music, and animation."
+          />
+        </picture>
+      </div>
+    </section>
+
+    <section id="about-info">
+      <div class="about-info-image">
+        <picture class="info-display-image">
+          <img
+            loading="lazy"
+            src={AboutInfoImage.src}
+            alt="A image with two mockups showing expertise in all kind of animtion video for your brand"
+          />
+        </picture>
+      </div>
+      <div class="about-info-text">
+        <h2>
+          Our Way of <br />
+          <span class="text-w-color"> Making Magic</span>
+        </h2>
+        <p>
+          We believe the best results come from working closely with you. Our
+          team of artists, writers, and voice talents takes the time to
+          understand what makes your brand special, turning that into a video
+          that feels just right for you.
+        </p>
+        <p>
+          Whether you're just starting out or you've been around and want to try
+          something new, we're here to add a little pizzazz to your marketing.
+          We're not just making videos; we're creating experiences that your
+          audience will remember.
+        </p>
+      </div>
+    </section>
+
+    <section id="calendly">
+      <h2>
+        <span>Want to know more?</span>
+        Book a Warm, <br />Informal Chat with Us!
+      </h2>
+      <div class="calendly-widget">
+        <!-- Calendly inline widget begin -->
+        <div
+          class="calendly-inline-widget"
+          data-url="https://calendly.com/jordan-elevatehubmedia/meet?hide_gdpr_banner=1&background_color=fcfcfc&text_color=020004&primary_color=020004"
+          style="min-width: 320px; height: 700px"
+        >
+        </div>
+        <script
+          type="text/javascript"
+          src="https://assets.calendly.com/assets/external/widget.js"
+          async></script>
+        <!-- Calendly inline widget end -->
+      </div>
+    </section>
+  </main>
+</Layout>

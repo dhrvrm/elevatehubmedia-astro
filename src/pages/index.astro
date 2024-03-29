@@ -1,0 +1,429 @@
+---
+// Components
+import Layout from "../layouts/Layout.astro";
+
+// Assets
+import HeroImage from "../assets/images/hero-image.webp";
+import HeroImageSmall from "../assets/images/hero-image-small.webp";
+import VideoThumbnail from "../assets/images/thumbnail-elevate-video.png";
+import IllustationDeskTop from "../assets/images/illustration-desk-top.webp";
+
+import PuzzleIcon from "../assets/icons/puzzle-dynamic-gradient.png";
+import TrophyIcon from "../assets/icons/trophy-dynamic-gradient.png";
+import MagicTrickIcon from "../assets/icons/magic-trick-dynamic-gradient.png";
+import PencilIcon from "../assets/icons/pencil-dynamic-gradient.png";
+import RocketIcon from "../assets/icons/rocket-dynamic-gradient.png";
+import GiftIcon from "../assets/icons/gift-dynamic-gradient.png";
+
+import ScriptsIcon from "../assets/icons/scripts-3d-icon.png";
+import MicIcon from "../assets/icons/mic-3d-icon.png";
+import FireIcon from "../assets/icons/fire-3d-icon.png";
+import HeadphonesIcon from "../assets/icons/headphone-3d-icon.png";
+
+import FileIcon from "../assets/icons/file-fav-dynamic-premium.png";
+import ClockIcon from "../assets/icons/clock-dynamic-premium.png";
+import NotifyIcon from "../assets/icons/notify-heart-dynamic-premium.png";
+import ChartIcon from "../assets/icons/chart-dynamic-premium.png";
+---
+
+<Layout title="ElevateHubMedia: Animated Videos">
+  <main>
+    <section id="hero">
+      <div class="hero-text">
+        <h1>
+          Hit Play on Your <br />Story with
+          <span id="elevate-text">Elevate</span>
+        </h1>
+        <p>
+          Expertly Crafted Animation That Speaks to Your Audience Let's Make
+          Your Message Unforgettable
+        </p>
+
+        <div class="hero-button-group">
+          <a class="btn btn-primary" href="/contact"> Animate Your Vision </a>
+          <a class="btn btn-link" href="/portfolio"> Discover Our Work </a>
+        </div>
+      </div>
+
+      <div class="hero-display">
+        <picture class="hero-display-image">
+          <!-- <source media="(max-width: 768px)" srcset={HeroImageSmall.src} />
+          <source media="(min-width: 769px)" srcset={HeroImage.src} /> -->
+          <img
+            loading="eager"
+            src={HeroImage.src}
+            alt="Experise in Animation Video, with great scripts, voice-overs, music, and animation."
+          />
+        </picture>
+      </div>
+    </section>
+
+    <section id="problem-statement">
+      <div class="ps-content">
+        <div class="heading-icon">
+          <img src={PuzzleIcon.src} alt="Puzzle Icon" loading="lazy" />
+        </div>
+        <h2>We understand <span class="text-w-color">the struggle.</span></h2>
+        <p>
+          Creating compelling marketing videos can often feel like an
+          insurmountable challenge. But it doesn't have to be this way. Do any
+          of these thoughts sound <span id="problem-span">familiar?</span>
+        </p>
+      </div>
+      <div class="ps-chat">
+        <h3>I'm not sure where to start with video marketing.</h3>
+        <h3>Producing quality videos feels too complex and time-consuming.</h3>
+        <h3>I can't seem to capture my brand's essence in a video.</h3>
+        <h3>How do I make videos that truly resonate with my audience?</h3>
+        <h3 class="from-them">
+          I wish there was an easier way to create engaging marketing videos.
+        </h3>
+        <p class="our-reply">
+          At Elevate Hub Media, we're here to turn these concerns into a thing
+          of the past.
+        </p>
+        <p id="read-reciept">
+          <span id="first-check">✓</span><span id="second-check">✓</span> Delivered
+        </p>
+      </div>
+    </section>
+
+    <section id="solution-statement">
+      <div class="heading-icon">
+        <img src={TrophyIcon.src} alt="Trophy Icon" loading="lazy" />
+      </div>
+      <h2>
+        <span>We Deliver Masterpieces </span>
+        <br />
+        <span class="typing"
+          ><span class="typing-span"> that captivate</span>
+        </span>
+      </h2>
+      <div class="solution-container">
+        <div class="solution-grid">
+          <div class="solution-grid-item">
+            <div class="item-icon">
+              <img src={ScriptsIcon.src} alt="Scripts Icon" loading="lazy" />
+            </div>
+            <h3>High-Converting Scripts</h3>
+            <p>
+              Crafting narratives that resonate with your audience, our
+              high-converting scripts transform your message into a compelling
+              story that drives results.
+            </p>
+          </div>
+          <div class="solution-grid-item">
+            <div class="item-icon">
+              <img src={MicIcon.src} alt="Mic Icon" loading="lazy" />
+            </div>
+            <h3>Powerful Voice-Over</h3>
+            <p>
+              Our experienced voice artists infuse emotion and impact into every
+              word, ensuring your brand’s message is delivered with authority
+              and resonance.
+            </p>
+          </div>
+          <div class="solution-grid-item">
+            <div class="item-icon">
+              <img src={FireIcon.src} alt="Fire Icon" loading="lazy" />
+            </div>
+            <h3>Engaging Animation</h3>
+            <p>
+              Captivate your audience with visually stunning animations tailored
+              to your brand’s identity, creating a memorable and immersive
+              viewer experience.
+            </p>
+          </div>
+          <div class="solution-grid-item">
+            <div class="item-icon">
+              <img
+                src={HeadphonesIcon.src}
+                alt="Headphones Icon"
+                loading="lazy"
+              />
+            </div>
+            <h3>Music & SFX</h3>
+            <p>
+              Enhance the emotional tone of your video with carefully selected
+              music and sound effects, elevating the overall impact and
+              engagement.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="heading-icon">
+        <img
+          src={MagicTrickIcon.src}
+          alt="Magic Trick Hat Icon"
+          loading="lazy"
+        />
+      </div>
+      <h2>
+        Expect the Exceptional, <br />Sample
+        <span class="text-w-color">Our Craft</span>
+      </h2>
+
+      <div class="portfolio-video">
+        <img
+          loading="lazy"
+          id="video-thumbnail"
+          src={VideoThumbnail.src}
+          alt="Video Thumbnail"
+          onclick="loadAndPlayVideo()"
+        />
+        <video id="video" controls loop>
+          <!-- The source is set programmatically -->
+        </video>
+      </div>
+    </section>
+
+    <section id="our-process">
+      <div class="heading-icon">
+        <img src={PencilIcon.src} alt="Pencil Icon" loading="lazy" />
+      </div>
+      <h2>
+        Crafting Your Story, <br /><span class="text-w-color">Step by Step</span
+        >
+      </h2>
+      <div class="steps-container">
+        <div class="step">
+          <span class="number">1</span>
+          <h3>Questionnaire</h3>
+          <p>
+            Start by sharing your project vision and specifics through our
+            detailed questionnaire.
+          </p>
+        </div>
+        <div class="step">
+          <span class="number">2</span>
+          <h3>Scripting</h3>
+          <p>
+            Our writers then craft a compelling script that embodies your core
+            message.
+          </p>
+        </div>
+        <div class="step">
+          <span class="number">3</span>
+          <h3>Voice-over</h3>
+          <p>
+            Choose a voice that resonates, bringing your script to life with
+            emotion and clarity.
+          </p>
+        </div>
+        <div class="step">
+          <span class="number">4</span>
+          <h3>Animation</h3>
+          <p>
+            Our animators create engaging visuals that perfectly sync with your
+            narrative.
+          </p>
+        </div>
+        <div class="step">
+          <span class="number">5</span>
+          <h3>Delivery</h3>
+          <p>
+            Review your bespoke animated video and request any final tweaks or
+            revisions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="value-proposition">
+      <div class="heading-icon">
+        <img src={RocketIcon.src} alt="Rocket Icon" loading="lazy" />
+      </div>
+      <div class="value-heading">
+        <h2>
+          Elevate Your Brand <br />with
+          <span class="text-w-color">Unbeatable Value</span>
+        </h2>
+        <p>
+          Join a global clientele leveraging ElevateHubMedia's animated
+          explainer videos for impactful messaging and boosted conversions. We
+          offer high-quality custom videos at competitive rates, ensuring great
+          value for your investment.
+        </p>
+      </div>
+
+      <div class="value-grid">
+        <div class="value-grid-item">
+          <div class="heading-icon">
+            <img src={FileIcon.src} alt="File Icon" loading="lazy" />
+          </div>
+          <h3>Transparent Pricing, No Surprises</h3>
+          <p>
+            Our clear-cut pricing includes everything you need: a custom script,
+            professional voiceover, and polished video, all priced per animation
+            second. With us, what you see is what you get no hidden fees, just
+            transparent value.
+          </p>
+        </div>
+        <div class="value-grid-item">
+          <div class="heading-icon">
+            <img src={ClockIcon.src} alt="Clock Icon" loading="lazy" />
+          </div>
+          <h3>Fast Delivery, Guaranteed</h3>
+          <p>
+            Facing a tight deadline? Our rush service delivers top-tier videos
+            in just 10 days for a small additional fee, ensuring your project
+            shines on time, every time.
+          </p>
+        </div>
+        <div class="value-grid-item">
+          <div class="heading-icon">
+            <img src={NotifyIcon.src} alt="Notify Icon" loading="lazy" />
+          </div>
+          <h3>Engage More, Convert More</h3>
+          <p>
+            Videos are key to engagement; customers prefer watching over reading
+            about products. Our captivating animations are designed to hold your
+            audience's attention and drive engagement.
+          </p>
+        </div>
+        <div class="value-grid-item">
+          <div class="heading-icon">
+            <img src={ChartIcon.src} alt="Chart Icon" loading="lazy" />
+          </div>
+          <h3>Boost Your Conversions</h3>
+          <p>
+            Including a video can increase landing page conversions by up to
+            80%. Let ElevateHubMedia's videos be your secret weapon for higher
+            conversion rates and a stronger bottom line.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="packages">
+      <div class="heading-icon">
+        <img src={GiftIcon.src} alt="Gift Icon" loading="lazy" />
+      </div>
+      <h2>
+        Select Your Perfect <br /><span class="text-w-color"
+          >Animation Package</span
+        >
+      </h2>
+      <div class="packages-container">
+        <div class="empty"></div>
+        <div class="package">
+          <div>
+            <h3>Whiteboard</h3>
+            <div class="package-video">
+              <iframe
+                loading="lazy"
+                title="Whiteboard"
+                src="https://player.vimeo.com/video/779846542?h=c14561dd84&dnt=1&app_id=122963"
+                frameborder="0"
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                name="fitvid7"></iframe>
+            </div>
+            <menu>
+              <li>High Converting Script</li>
+              <li>Powerful Voice-Over</li>
+              <li>Engaging Animation</li>
+              <li>Music & SFX</li>
+              <li>2x Revisions</li>
+              <li>4+ Weeks Delivery</li>
+            </menu>
+          </div>
+          <div class="package-cta">
+            <a class="btn btn-secondary" href="/contact" target="_blank"
+              >Get Started</a
+            >
+            <h4>£698/30 seconds</h4>
+          </div>
+        </div>
+        <div class="package">
+          <div>
+            <h3>Explainer</h3>
+            <div class="package-video">
+              <iframe
+                loading="lazy"
+                title="Explainer"
+                src="https://player.vimeo.com/video/779837404?h=ee50de10d0&dnt=1&app_id=122963"
+                frameborder="0"
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                name="fitvid7"></iframe>
+            </div>
+            <menu>
+              <li>High Converting Script</li>
+              <li>Powerful Voice-Over</li>
+              <li>Engaging Animation</li>
+              <li>Music & SFX</li>
+              <li>2x Revisions</li>
+              <li>4+ Weeks Delivery</li>
+            </menu>
+          </div>
+          <div class="package-cta">
+            <a class="btn btn-secondary" href="/contact" target="_blank"
+              >Get Started</a
+            >
+            <h4>£1198/30 seconds</h4>
+          </div>
+        </div>
+        <div class="package">
+          <div>
+            <h3 class="premium">Premium</h3>
+            <div class="package-video">
+              <iframe
+                loading="lazy"
+                title="Premium"
+                src="https://player.vimeo.com/video/779830854?h=5399429893&dnt=1&app_id=122963"
+                frameborder="0"
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                name="fitvid7"></iframe>
+            </div>
+            <menu>
+              <li>High Converting Script</li>
+              <li>Powerful Voice-Over</li>
+              <li>Engaging Animation</li>
+              <li>Music & SFX</li>
+              <li>2x Revisions</li>
+              <li>8+ Weeks Delivery</li>
+              <li class="premium">Premium Animation Team</li>
+              <li class="premium">Custom Graphics</li>
+            </menu>
+          </div>
+          <div class="package-cta">
+            <a class="btn btn-secondary" href="/contact" target="_blank"
+              >Get Started</a
+            >
+            <h4>£1998/30 seconds</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="join-us">
+      <div class="join-text">
+        <h2>Ready to Animate <span class="text-w-color">Your Story?</span></h2>
+        <p>
+          Let's bring your vision to life. Whether you're set to start or have a
+          few questions, we're here for you. Reach out or book a call today and
+          take the first step toward captivating animation.
+        </p>
+        <div class="join-button-group">
+          <a class="btn btn-primary" href="/contact"> Get in Touch </a>
+          <a
+            class="btn btn-link"
+            href="https://calendly.com/jordan-elevatehubmedia/meet"
+            target="_blank">Book a quick call</a
+          >
+        </div>
+      </div>
+      <div class="join-image">
+        <img
+          src={IllustationDeskTop.src}
+          alt="Girl Working on Aniamtion Videos"
+          loading="lazy"
+        />
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<style></style>

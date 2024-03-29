@@ -1,0 +1,64 @@
+---
+import LogoImage from '../assets/images/logo-full.webp';
+
+import MailIcon from '../assets/icons/mail.svg'
+import CallIcon from '../assets/icons/call.svg'
+import NavIcon from '../assets/icons/nav.svg'
+
+
+---
+
+<footer>
+    <div class="footer-container">
+      <menu>
+        <div class="logo-container">
+          <div class="logo-container-img">
+            <img
+              src={LogoImage.src}
+              alt="Elevate Hub Media Logo"
+            />
+          </div>
+          <div class="tagline">
+            <h3>Animating Your Ambitions, Elevating Your Impact</h3>
+          </div>
+        </div>
+      </menu>
+
+      <nav>
+        <menu>
+          <h4>Links</h4>
+          <li><a href="/">Home</a></li>
+          <li><a href="/portfolio">Porfolio</a></li>
+          <li><a href="/pricing">Pricing</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+        </menu>
+      </nav>
+
+      <menu>
+        <menu class="w-icon-links">
+          <h4>Get in Touch</h4>
+          <li>
+            <img src={MailIcon.src} alt="email icon" />
+            <a href="mailto:jordan@elevatehubmedia.com"
+              >jordan@elevatehubmedia.com</a
+            >
+          </li>
+          <li>
+            <img src={CallIcon.src} alt="phone number icon" />
+            <a href="tel:+447738427093">+44 7738 427093</a>
+          </li>
+          <address>
+            <img src={NavIcon.src} alt="navigation icon" />
+            <span>Wakefield, West Yorkshire, England</span>
+          </address>
+        </menu>
+      </menu>
+    </div>
+
+    <div class="muted-footer-container">
+      <p>&copy; Copyright 2024, Elevate Media Hub</p>
+      <a href="/privacy-policy">Privacy Policy</a>
+      <a href="/terms-conditions">Terms & Conditions</a>
+    </div>
+  </footer>

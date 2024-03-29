@@ -1,0 +1,32 @@
+---
+import LogoImage from "../assets/images/elevate-logo.webp";
+---
+
+<header class="header-container">
+  <a href="/" style="padding:0px;">
+    <div class="logo-container">
+      <div class="logo-container-img">
+        <img src={LogoImage.src} alt="Elevate Media Hub" />
+      </div>
+    </div>
+  </a>
+  <nav class="nav-container">
+    <menu class="nav-list">
+      <li class="nav-link"><a href="/">Home</a></li>
+      <li class="nav-link"><a href="/portfolio">Portfolio</a></li>
+      <li class="nav-link"><a href="/pricing">Pricing</a></li>
+      <li class="nav-link"><a href="/about">About Us</a></li>
+      <li class="nav-link">
+        <a class="btn btn-primary btn-navigation" href="/contact">
+          Get in Touch
+        </a>
+      </li>
+    </menu>
+  </nav>
+
+  <div role="button" id="hamburger" class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</header>
