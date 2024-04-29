@@ -1,20 +1,25 @@
-# Astro Starter Kit: Basics
+# ElevateHubMedia Astro Website
+[Preview Link](https://elevatehubmedia.com/)
+##Description
+The ElevateHubMedia Astro Website is a landing single-page application (SPA) built with AstroJS. It features a clean and modern design, showcasing the capabilities of AstroJS for creating dynamic and interactive web experiences.
 
-```sh
-npm create astro@latest -- --template basics
-```
+## Technologies Used
+- AstroJS
+- HTML
+- CSS
+- JavaScript
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Usage
+To view the ElevateHubMedia Astro Website, visit the [Website](https://elevatehubmedia.com/). The website is a single-page application that leverages AstroJS for efficient rendering and seamless user interactions.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## GitHub Repository
+- Description: Landing SPA Built with AstroJS
+- Features: Utilizes AstroJS for dynamic content rendering and interactive elements.
+This information provides an overview of the ElevateHubMedia Astro Website, its technologies, usage, and the corresponding GitHub repository for further exploration and development.
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+Inside of the Astro project, you'll see the following folders and files:
 
 ```text
 /
@@ -49,6 +54,13 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Contributing
+The "Zami A Rokhum" website is an open-source project, and contributions are welcome. If you would like to contribute, please follow these steps:
+- Fork the repository
+- Create a new branch for your changes
+- Make your changes and commit them
+- Submit a pull request
+
+## 👀 Want to learn more?
+For any questions or feedback about the "ElevateHubMedia" website, please contact the project maintainer at [dhruvverma028@gmail.com](mailto:dhruvverma028@gmail.com)
