@@ -56,7 +56,7 @@ All commands are run from the root of the project, from a terminal:
 
 
 ## Contributing
-The "Zami A Rokhum" website is an open-source project, and contributions are welcome. If you would like to contribute, please follow these steps:
+The "ElevateHubMedia" website is an open-source project, and contributions are welcome. If you would like to contribute, please follow these steps:
 - Fork the repository
 - Create a new branch for your changes
 - Make your changes and commit them
