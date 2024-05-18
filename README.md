@@ -1,6 +1,6 @@
 # ElevateHubMedia Astro Website
-[Preview Link](https://elevatehubmedia.com/)
-##Description
+[Preview Link](https://elevatehubmedia.com/)  
+## Description
 The ElevateHubMedia Astro Website is a landing single-page application (SPA) built with AstroJS. It features a clean and modern design, showcasing the capabilities of AstroJS for creating dynamic and interactive web experiences.
 
 ## Technologies Used
